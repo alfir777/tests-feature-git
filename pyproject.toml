@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tests-feature-git"
+version = "0.1.0"
+description = "Testing some feature git"
+authors = ["Alfir Tyakin <alfir7777@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "tests_feature_git"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
